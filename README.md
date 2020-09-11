@@ -1,4 +1,8 @@
 # audit_main
 
-TODO: Enter the cookbook description here.
+# metadata.rb
+depends 'audit'
+
+# recipes/default.rb
+include_recipe 'audit::default'
 
