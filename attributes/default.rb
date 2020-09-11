@@ -7,7 +7,7 @@ default['audit']['profiles'] =
     default['audit']['profiles']['linux-baseline'] = { 'compliance': 'admin/linux-baseline' }
     default['audit']['profiles']['cis-centos7-level1'] = { 'compliance': 'admin/cis-centos7-level1' }
   when 'ubuntu'
-    default['audit']['profiles']['linux-baseline'] = { 'compliance': 'admin/linux-baseline'}
+    default['audit']['profiles']['linux-baseline'] = { 'compliance': 'admin/linux-baseline' }
     default['audit']['profiles']['cis-ubuntu16.04lts-level1-server'] = { 'compliance': 'admin/cis-ubuntu16.04lts-level1-server' }
     default['audit']['profiles']['cis-ubuntu18.04lts-level1-server'] = { 'compliance': 'admin/cis-ubuntu18.04lts-level1-server' }
   when 'windows'
@@ -22,7 +22,7 @@ default['audit']['profiles'] =
             default['audit']['profiles']['cis-windows2012r2-level1-memberserver'] = { 'compliance': 'admin/cis-windows2012r2-level1-memberserver' }
   end
   when 'redhat'
-    default['audit']['profiles']['linux-baseline'] = { 'compliance': 'admin/linux-baseline'}
+    default['audit']['profiles']['linux-baseline'] = { 'compliance': 'admin/linux-baseline' }
     default['audit']['profiles']['cis-rhel7-level1-server'] = { 'compliance': 'admin/cis-rhel7-level1-server' }
   end
 

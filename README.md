@@ -5,12 +5,12 @@
 { 'compliance': 'admin/cis-centos7-level1' }
 
 ## ubuntu
-{ 'compliance': 'admin/linux-baseline'}  
+{ 'compliance': 'admin/linux-baseline' }  
 { 'compliance': 'admin/cis-ubuntu16.04lts-level1-server' }  
 { 'compliance': 'admin/cis-ubuntu18.04lts-level1-server' }
 
 ## redhat
-{ 'compliance': 'admin/linux-baseline'}  
+{ 'compliance': 'admin/linux-baseline' }  
 { 'compliance': 'admin/cis-rhel7-level1-server' }
 
 ## windows
